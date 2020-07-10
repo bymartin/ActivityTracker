@@ -12,6 +12,11 @@ struct Activity: Identifiable, Codable {
     let id = UUID()
     let name: String
     let description: String
+    var numberOfCompletions = 0
+    
+    mutating func incrementCompletions() {
+        numberOfCompletions += 1
+    }
 }
 
 

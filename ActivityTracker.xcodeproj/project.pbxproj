@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1B99AC24B8CF7F00FFA130 /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B99AB24B8CF7F00FFA130 /* ActivityDetailView.swift */; };
 		4CDDA88A24B6B7D800999BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDA88924B6B7D800999BA9 /* AppDelegate.swift */; };
 		4CDDA88C24B6B7D800999BA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDA88B24B6B7D800999BA9 /* SceneDelegate.swift */; };
 		4CDDA88E24B6B7D800999BA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDA88D24B6B7D800999BA9 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C1B99AB24B8CF7F00FFA130 /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
 		4CDDA88624B6B7D800999BA9 /* ActivityTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDDA88924B6B7D800999BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CDDA88B24B6B7D800999BA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				4CDDA88924B6B7D800999BA9 /* AppDelegate.swift */,
 				4CDDA88B24B6B7D800999BA9 /* SceneDelegate.swift */,
 				4CDDA88D24B6B7D800999BA9 /* ContentView.swift */,
+				4C1B99AB24B8CF7F00FFA130 /* ActivityDetailView.swift */,
 				4CDDA89F24B7763300999BA9 /* AddActivityView.swift */,
 				4CDDA89D24B6B81100999BA9 /* Activity.swift */,
 				4CDDA88F24B6B7DB00999BA9 /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 			files = (
 				4CDDA88A24B6B7D800999BA9 /* AppDelegate.swift in Sources */,
 				4CDDA88C24B6B7D800999BA9 /* SceneDelegate.swift in Sources */,
+				4C1B99AC24B8CF7F00FFA130 /* ActivityDetailView.swift in Sources */,
 				4CDDA89E24B6B81100999BA9 /* Activity.swift in Sources */,
 				4CDDA88E24B6B7D800999BA9 /* ContentView.swift in Sources */,
 				4CDDA8A024B7763300999BA9 /* AddActivityView.swift in Sources */,

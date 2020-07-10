@@ -16,12 +16,19 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(activities.activityList) { activity in
-                VStack(alignment: .leading) {
-                    Text(activity.name)
-                        .font(.headline)
-                    Text(activity.description)
-                        .font(.caption)
+            //List(activities.activityList) { activity in
+            List {
+                ForEach(activities.activityList.indices, id: \.self) { index in
+                    NavigationLink(destination: ActivityDetailView(index: index).environmentObject(self.activities)) {
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text(self.activities.activityList[index].name)
+                                    .font(.headline)
+                                Text(self.activities.activityList[index].description)
+                                    .font(.caption)
+                            }
+                        }
+                    }
                 }
             }
             .navigationBarTitle("Habit Tracker")
